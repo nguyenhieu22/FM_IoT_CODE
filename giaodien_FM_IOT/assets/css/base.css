@@ -1,0 +1,25 @@
+:root{
+    --white-color: #fff; /*khai bao bien*/
+    --text-color: #333;
+}
+*{
+    box-sizing: inherit; /*inherit: ke thua the chua no*/
+}
+html{
+    /*mac dinh trinh duyet font-sze: 100% tuwong ung 116px*/
+    font-size: 62.5%; /*de su dung 1 rem bang 10px*/
+    line-height: 1.6rem; /**do cao cua chu*/
+    box-sizing: border-box;
+}
+.grid{
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.gid__full-width{
+    width: 100%;
+}
+.grid_row{
+    display: flex;
+    flex-wrap: wrap;
+}
